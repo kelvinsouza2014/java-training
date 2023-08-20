@@ -11,6 +11,8 @@ public class TesteCliente {
 		clienteA.cpf = "012.456.789-10";
 		clienteA.saldoContaCorrente = 1000.00f;
 		
+		clienteA.sacarContaCorrente(500.00f);
+		
 		System.out.print(clienteA);
 		
 		Cliente clienteB = new Cliente();
@@ -18,6 +20,8 @@ public class TesteCliente {
 		clienteB.contaCorrente = "5647-8";
 		clienteB.cpf = "023.567.891-01";
 		clienteB.saldoContaCorrente = 2000.00f;
+		
+		clienteA.sacarContaCorrente(1000.00f);
 		
 		System.out.print(clienteB);
 		
