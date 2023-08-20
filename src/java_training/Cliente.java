@@ -13,4 +13,8 @@ public class Cliente {
 		}
 	}
 	
+	public String informarAgenciaConta() {
+		String resultado =  "Agencia: " + this.agencia + "CC: " + this.contaCorrente;
+		return resultado;
+	}
 }
