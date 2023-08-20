@@ -16,7 +16,7 @@ public class TesteCliente {
 		Cliente clienteB = new Cliente();
 		clienteB.agencia = 5678;
 		clienteB.contaCorrente = "5647-8";
-		clienteB.cpf = "023.567.891-00";
+		clienteB.cpf = "023.567.891-01";
 		clienteB.saldoContaCorrente = 2000.00f;
 		
 		System.out.print(clienteB);
